@@ -1,3 +1,11 @@
-img:hover {
-  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+#imgBefore {
+  box-shadow: 0 0 4px 1px rgba(0, 140, 186, 0.5);
+}
+
+#imgAfter {
+  box-shadow: 0 0 4px 1px rgba(0, 140, 186, 0.5);
+}
+
+#imgAsp {
+  box-shadow: 0 0 4px 1px rgba(0, 140, 186, 0.5);
 }
