@@ -7,7 +7,7 @@
   font-size: 80%;
   padding: 0.75rem;
   color: #64a19d;
-  border: 1px solid #64a19d;
+  border: 1px solid #17a2b8;
 }
 
 #mainNav .navbar-toggler:focus {
@@ -72,9 +72,9 @@
     color: #467370;
   }
   #mainNav.navbar-shrink .nav-link.active {
-    color: #64a19d;
+    color: #17a2b8;
     outline: none;
-    border-bottom: 0.25rem solid #64a19d;
+    border-bottom: 0.25rem solid #17a2b8;
   }
 }
 
@@ -84,7 +84,7 @@
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../img/bg-masthead.jpg");
+  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../img/bg-space.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -157,12 +157,35 @@
 }
 
 .about-section {
-  padding-top: 10rem;
+  padding-top: 8rem;
   background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.9) 75%, rgba(22, 22, 22, 0.8) 100%);
 }
 
 .about-section p {
   margin-bottom: 5rem;
+}
+
+.github-section {
+  padding-top: 10rem;
+  background: linear-gradient(to top, #161616 0%, rgba(22, 22, 22, 0.9) 50%, #f8f9fa 100%);
+}
+
+.github-section .social a {
+  text-align: center;
+  height: 6rem;
+  width: 6rem;
+  background: rgba(23, 162, 184, 0.5);
+  border-radius: 100%;
+  line-height: 6rem;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.github-section .social a:hover {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.github-section .social a:active {
+  color: #fff;
 }
 
 .projects-section {
@@ -176,7 +199,7 @@
 @media (min-width: 992px) {
   .projects-section .featured-text {
     padding: 0 0 0 2rem;
-    border-left: 0.5rem solid #64a19d;
+    border-left: 0.5rem solid #17a2b8;
   }
 }
 
@@ -190,7 +213,7 @@
     padding: 5rem;
   }
   .projects-section .project-text hr {
-    border-color: #64a19d;
+    border-color: #17a2b8;
     border-width: .25rem;
     width: 30%;
   }
@@ -221,7 +244,7 @@
 
 .contact-section .card {
   border: 0;
-  border-bottom: 0.25rem solid #64a19d;
+  border-bottom: 0.25rem solid #17a2b8;
 }
 
 .contact-section .card h4 {
@@ -232,7 +255,7 @@
 }
 
 .contact-section .card hr {
-  border-color: #64a19d;
+  border-color: #17a2b8;
   border-width: 0.25rem;
   width: 3rem;
 }
